@@ -112,6 +112,11 @@
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\Loyola\COMP453\sample_submission.csv\sample_submission.csv" />
+    <None Include="..\..\..\..\..\Desktop\Loyola\COMP453\test.csv\test.csv" />
+    <None Include="..\..\..\..\..\Desktop\Loyola\COMP453\train.csv\train.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

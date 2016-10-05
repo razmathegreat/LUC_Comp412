@@ -19,4 +19,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\Loyola\COMP453\train.csv\train.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\Loyola\COMP453\test.csv\test.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\Loyola\COMP453\sample_submission.csv\sample_submission.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>
