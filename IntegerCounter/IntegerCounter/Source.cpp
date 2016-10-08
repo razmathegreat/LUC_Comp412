@@ -1,6 +1,7 @@
 #include <iostream>;
 #include <fstream>;
 #include <string>;
+#include "Header.h"
 using namespace std;
 
 
@@ -18,5 +19,7 @@ int main() {
 	}
 	else cout << "Unable to open file";
 	cin >> i;
+	
+	
 	return 0; 
 }
