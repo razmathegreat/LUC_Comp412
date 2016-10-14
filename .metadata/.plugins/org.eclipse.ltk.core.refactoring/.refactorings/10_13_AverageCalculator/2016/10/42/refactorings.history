@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;AverageCalculator.main().input&apos; in &apos;AverageCalculator.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;10_13_AverageCalculator&apos;&#x0D;&#x0A;- Original element: &apos;AverageCalculator.main().input&apos;&#x0D;&#x0A;- Field name: &apos;input&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;input&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{AverageCalculator.java" name="input" selection="320 12" stamp="1476406025100" static="true" version="1.0" visibility="2"/>
+</session>

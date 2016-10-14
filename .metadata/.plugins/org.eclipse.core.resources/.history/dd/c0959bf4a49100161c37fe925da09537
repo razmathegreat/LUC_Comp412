@@ -1,0 +1,28 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+
+
+public class AverageCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] input;
+		String filename = "IntegerInput.txt";
+		BufferedReader br = new BufferedReader(new FileReader(filename));
+		String line;
+		
+		try {
+			while (br.readLine()!=null){
+				line= br.readLine();
+				System.out.println(line);
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

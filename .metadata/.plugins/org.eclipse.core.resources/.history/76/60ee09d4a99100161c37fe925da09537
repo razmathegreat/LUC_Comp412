@@ -1,0 +1,41 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+public class AverageCalculator {
+
+	
+
+	public static void main(String[] args) throws FileNotFoundException {
+		List<Integer> input = new ArrayList<Integer>();
+		String filename = "./src/IntegerInput.txt";
+		BufferedReader br = new BufferedReader(new FileReader(filename));
+		String line = "";
+		
+		try {
+			while (line !=null){
+				line =  br.readLine();
+				
+				
+				if	(line != null){
+					int lineI = Integer.parseInt(line); 
+					input.add(lineI);
+				}
+			}
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		for(int i = 0; i <input.size(); i++){
+			System.out.println(input.get(i));
+		}
+
+	}
+
+}
