@@ -39,7 +39,7 @@ public class AverageCalculator {
 		for(Integer number:input){
 			sum += number;
 		}
-		System.out.println("The average of this file is: " + sum/input.size());
+		System.out.println(sum/input.size());
 		
 
 	}

@@ -13,7 +13,7 @@ public class AverageCalculator {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		List<Integer> input = new ArrayList<Integer>();
-		String filename = "IntegerInput.txt";
+		String filename = "./src/IntegerInput.txt";
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 		String line = "";
 		
@@ -39,7 +39,7 @@ public class AverageCalculator {
 		for(Integer number:input){
 			sum += number;
 		}
-		System.out.println("The average of this file is: " + sum/input.size());
+		System.out.println(sum/input.size());
 		
 
 	}
